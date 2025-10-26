@@ -6,6 +6,10 @@ In this exercise, students will implement a simple lexical analyzer for a miniat
 #### Step 1 – Lexeme Extraction
 You are provided with the following Python function that splits code into lexemes. Study it carefully, as it will be the first stage of your lexical analyzer.
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1w6dWW9baJgzh1MxN8iPeL5mFFsP_EkcS?usp=sharing)
+
+
+
 ```python
 def split_to_lexemes(code):
     lexemes = []
