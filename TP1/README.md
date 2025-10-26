@@ -54,7 +54,7 @@ For each lexeme returned by the previous function, you will implement a function
 - **Keyword**: `(int|float|void|if|else|while|return)`
 - **Identifier**: `[a-zA-Z_][a-zA-Z0-9_]*`
 - **Number**: `[0-9]+`
-- **String literal**: `"([^"\\]|\\.)*"`
+- **String literal**: `"abcd\\.)*"`
 - **Operator**: `[+\-*/=<>]`
 - **Separator**: `[(){};,]`
 
