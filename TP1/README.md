@@ -39,12 +39,12 @@ def split_to_lexemes(code):
 
 Example:
 ```python
-code = "void main() { int x = 15 * 30; }"
+code = 'void main() { int x = 15 * 30; string msg = "Hello"; }'
 print(split_to_lexemes(code))
 ```
 Expected output:
 ```
-['void', 'main', '(', ')', '{', 'int', 'x', '=', '15', '*', '30', ';', '}']
+['void', 'main', '(', ')', '{', 'int', 'x', '=', '15', '*', '30', ';', 'string', 'msg', '=', '"Hello"', ';', '}']
 ```
 
 #### Step 2 – Token Recognition
